@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <header>
+    <div class="bg-gray h-16 top-1 align-middle">
+        <div class="h-6 p-1  bg-gray items-center">
+            <div class="px-32 py-0 text-white text-sm font-mono flex justify-center">
+                <a href="#"></a>
+                <span class="mr-0">320 VILLAGE LANE</span>
+                <span class="mr-0">LOS GATOS, CALIFORNIA</span>
+                <a href="tel:(+250) 791348739">(+250) 791348739</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="bg-dark-gray h-24">
+            <div class="container mt-0 mb-0 ml-24 mr-24 bg-dark-gray px-0 py-4 flex ">
+                <div  class="mr-48">
+                <a href="/">
+                    <img src="./Images/_logo-big.png" width="250px" height="53px" class="max-w-full">
+                </a>
+              </div>
+              <nav id="nav" class="h-10 text-darkest-white flex space-x-3 items-center ml-48 [@media(max-w-screen-4xl)]:hidden">
+                <div class="px-0.5 py-1 text-lg hover:text-light-gold  ">
+                    <button onclick="goToLocation()">HOURS & LOCATION</button>
+                </div>
+                <div class="px-0.5 py-1 text-lg hover:text-light-gold">
+                    <button onclick="goToMenu()" href="/">MENU</button>
+                </div> 
+                <div class="px-0.5 py-1 text-lg hover:text-light-gold">
+                    <a href="/">INFO & TEAM</a>
+                </div>
+                <div class="text-lg hover:text-light-gold">
+                    <a href="reservation.html" class="border-b-4 border-l-4 p-1 hover:border-0 hover:bg-gold hover:text-black">RESERVATION</a>
+                </div>  
+              </nav>
+            </div>
+         </div>
+    </div>
+</header>
+<main>
+  
+        <div class="w-full relative m-auto">
+            <img name="slide" class="w-full">
+            <a class="left-0 top-1/4 w-auto cursor-pointer absolute font-black p-4 text-4xl text-black hover:bg-light-black rounded-l-none rounded-r-lg" onclick="prev()">&#10094</a>
+            <a class="right-0 top-1/4 w-auto cursor-pointer absolute font-black p-4 text-4xl text-black hover:bg-light-black rounded-l-lg rounded-r-none" onclick="next()">&#10095</a> 
+        </div>
+
+        <div class="container w-1/2 m-auto p-4 text-center text-light-gold">
+            <hr>
+             <div class="text-6xl text-gold m-auto p-20">SEA FOOD</div>
+            <p class="text-lg p-20">How to grill fish is more of a technique than a recipe per se,
+                but it's as easy as could be. The total time for applying the oil,
+                seasoning, and cooking was just under 20 minutes. A fast method for cooking fish.</p>
+
+                <p class="text-lg p-20">We used cod—2 fillets were 1 inch thick, and 2 were 1 1/2 inches thick.
+                 We used a gas grill. The 2 inside burners were left off in case we needed them for indirect cooking.
+                  We cooked the 1-inch-thick fillets for 6 minutes per side and didn't need to cook them any further. 
+                  The 1 1/2-inch fillets were cooked for 8 minutes per side and didn't need any further cooking. 
+                  The results were tasty, and the fish was cooked until opaque through the middle. In fact,
+                  those fillets could have come off after 14 minutes, as they would have overcooked
+                   if not taken off when they were.</p>
+        </div>
+        <!--menu-->
+        <div id="menu" class="grid m-auto items-center w-1/2 justify-items-center justify-center">
+            <div class="flex">
+            <div class="h-1/4  w-1/2 shadow-2xl rounded-md m-auto">
+                <img class="h-20 w-40" src="./Images/Avocadosalad.jpg">
+                <p>Our super fresh and delicate Avocadosalad
+                    is definetly worty of tyring !
+                </p>
+            </div>
+           
+            <div class="h-1/4  w-1/2 shadow-2xl rounded-md m-auto">
+                <img class="h-20 w-40" src="./Images/Avocadosalad.jpg">
+                <p>Our super fresh and delicate Avocadosalad
+                    is definetly worty of tyring !
+                </p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="h-1/4  w-1/2 shadow-2xl rounded-md m-auto">
+                <img class="h-20 w-40" src="./Images/Avocadosalad.jpg">
+                <p>Our super fresh and delicate Avocadosalad
+                    is definetly worty of tyring !
+                </p>
+            </div>
+            <div class="h-1/4  w-1/2 shadow-2xl rounded-md m-auto">
+                <img class="h-20 w-40" src="./Images/Avocadosalad.jpg">
+                <p>Our super fresh and delicate Avocadosalad
+                    is definetly worty of tyring !
+                </p>
+            </div>
+         </div>
+         <div class="flex">
+            <div class="h-1/4  w-1/2 shadow-2xl rounded-md m-auto">
+                <img class="h-20 w-40" src="./Images/Avocadosalad.jpg">
+                <p>Our super fresh and delicate Avocadosalad
+                    is definetly worty of tyring !
+                </p>
+            </div>
+            <div class="h-1/4  w-1/2 shadow-2xl rounded-md m-auto cursor-pointer hover:scale-50">
+                
+                <img class="h-20 w-40 hover:scale-50" src="./Images/Avocadosalad.jpg">
+                <p>Our super fresh and delicate Avocadosalad
+                    is definetly worty of tyring !
+                </p>
+            </div>
+         </div>
+        
+        </div>
+    <!--location & Hours section-->
+
+    <div id="location">
+    <div class="m-4 p-4 flex">
+    <div class="w-90 h-60 text-center text-2xl m-auto p-4 border-solid border-1 shadow-2xl rounded-md">
+        <h1 class="text-4xl ">Tuesday - Sunday</h1>
+        <h3 class="h-6 m-2">9:00am- 11:00</h3>
+        <h3 class="h-6 m-2">Happy hours every weekend</h3>
+        <h3 class="h-6 m-2">4:00pm to 7:00pm</h3>
+    </div>
+    <div class="m-10">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12707.427271224167!2d-121.9808426!3d37.2273738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd4edb12655df1f5e!2sManresa!5e0!3m2!1sen!2srw!4v1673171265930!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+   
+    </div>
+</div>
+</main>
+<footer class="bg-black">
+    <div class="bg-black text-dark-white">@copyright mersa2023</div>
+</footer>
+</body>
+</html>
